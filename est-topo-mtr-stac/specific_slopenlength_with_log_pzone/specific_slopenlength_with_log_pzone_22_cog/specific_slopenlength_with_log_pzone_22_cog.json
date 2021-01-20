@@ -1,0 +1,68 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0-beta.2",
+    "id": "specific_slopenlength_with_log_pzone_22_cog",
+    "properties": {
+        "datetime": "2021-01-20T12:00:00+03:00"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    26.865395535426234,
+                    58.922429860574624
+                ],
+                [
+                    26.90295049355624,
+                    59.37087099272768
+                ],
+                [
+                    27.78098625502136,
+                    59.34851809534472
+                ],
+                [
+                    27.73211402652305,
+                    58.90036282802602
+                ],
+                [
+                    26.865395535426234,
+                    58.922429860574624
+                ]
+            ]
+        ]
+    },
+    "links": [
+        {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "image": {
+            "href": "https://storage.googleapis.com/geo-assets/est-topo-mtr/specific_slopenlength_with_log_pzone/specific_slopenlength_with_log_pzone_22_cog.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "roles": [
+                "data"
+            ]
+        }
+    },
+    "bbox": [
+        26.865395535426234,
+        58.90036282802602,
+        27.78098625502136,
+        59.37087099272768
+    ],
+    "collection": "specific_slopenlength_with_log_pzone"
+}

@@ -1,0 +1,68 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0-beta.2",
+    "id": "flowlength_5m_pzone_4_cog",
+    "properties": {
+        "datetime": "2021-01-20T12:00:00+03:00"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    24.25089843216598,
+                    57.60708245006578
+                ],
+                [
+                    24.257314872499165,
+                    58.50491504255276
+                ],
+                [
+                    25.11493389477969,
+                    58.500323126943165
+                ],
+                [
+                    25.08713641227322,
+                    57.60260513263815
+                ],
+                [
+                    24.25089843216598,
+                    57.60708245006578
+                ]
+            ]
+        ]
+    },
+    "links": [
+        {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "image": {
+            "href": "https://storage.googleapis.com/geo-assets/est-topo-mtr/flowlength_5m_pzone/flowlength_5m_pzone_4_cog.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "roles": [
+                "data"
+            ]
+        }
+    },
+    "bbox": [
+        24.25089843216598,
+        57.60260513263815,
+        25.11493389477969,
+        58.50491504255276
+    ],
+    "collection": "flowlength_5m_pzone"
+}

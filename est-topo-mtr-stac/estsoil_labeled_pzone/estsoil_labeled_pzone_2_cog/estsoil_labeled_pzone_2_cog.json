@@ -1,0 +1,68 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0-beta.2",
+    "id": "estsoil_labeled_pzone_2_cog",
+    "properties": {
+        "datetime": "2021-01-20T12:00:00+03:00"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    26.023918220408238,
+                    59.38735077415863
+                ],
+                [
+                    26.050813897741463,
+                    59.83592195710798
+                ],
+                [
+                    27.831154025400252,
+                    59.79658172427641
+                ],
+                [
+                    27.78098625502136,
+                    59.34851809534472
+                ],
+                [
+                    26.023918220408238,
+                    59.38735077415863
+                ]
+            ]
+        ]
+    },
+    "links": [
+        {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "image": {
+            "href": "https://storage.googleapis.com/geo-assets/est-topo-mtr/estsoil_labeled_pzone/estsoil_labeled_pzone_2_cog.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "roles": [
+                "data"
+            ]
+        }
+    },
+    "bbox": [
+        26.023918220408238,
+        59.34851809534472,
+        27.831154025400252,
+        59.83592195710798
+    ],
+    "collection": "estsoil_labeled_pzone"
+}

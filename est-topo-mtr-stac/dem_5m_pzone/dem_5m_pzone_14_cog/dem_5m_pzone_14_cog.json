@@ -1,0 +1,68 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0-beta.2",
+    "id": "dem_5m_pzone_14_cog",
+    "properties": {
+        "datetime": "2021-01-20T12:00:00+03:00"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    24.260647755946763,
+                    58.953812249851126
+                ],
+                [
+                    24.264068110594433,
+                    59.402660447047474
+                ],
+                [
+                    25.144190070188348,
+                    59.39794905809866
+                ],
+                [
+                    25.129372563281724,
+                    58.94916122890494
+                ],
+                [
+                    24.260647755946763,
+                    58.953812249851126
+                ]
+            ]
+        ]
+    },
+    "links": [
+        {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "image": {
+            "href": "https://storage.googleapis.com/geo-assets/est-topo-mtr/dem_5m_pzone/dem_5m_pzone_14_cog.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "roles": [
+                "data"
+            ]
+        }
+    },
+    "bbox": [
+        24.260647755946763,
+        58.94916122890494,
+        25.144190070188348,
+        59.402660447047474
+    ],
+    "collection": "dem_5m_pzone"
+}

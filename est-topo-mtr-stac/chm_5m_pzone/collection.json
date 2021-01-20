@@ -1,0 +1,174 @@
+{
+    "id": "chm_5m_pzone",
+    "stac_version": "1.0.0-beta.2",
+    "description": "chm_5m in 22 mosaic processing zones",
+    "links": [
+        {
+            "rel": "root",
+            "href": "../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_1_cog/chm_5m_pzone_1_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_2_cog/chm_5m_pzone_2_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_3_cog/chm_5m_pzone_3_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_4_cog/chm_5m_pzone_4_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_5_cog/chm_5m_pzone_5_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_6_cog/chm_5m_pzone_6_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_7_cog/chm_5m_pzone_7_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_8_cog/chm_5m_pzone_8_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_9_cog/chm_5m_pzone_9_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_10_cog/chm_5m_pzone_10_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_11_cog/chm_5m_pzone_11_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_12_cog/chm_5m_pzone_12_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_13_cog/chm_5m_pzone_13_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_14_cog/chm_5m_pzone_14_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_15_cog/chm_5m_pzone_15_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_16_cog/chm_5m_pzone_16_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_17_cog/chm_5m_pzone_17_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_18_cog/chm_5m_pzone_18_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_19_cog/chm_5m_pzone_19_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_20_cog/chm_5m_pzone_20_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_21_cog/chm_5m_pzone_21_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./chm_5m_pzone_22_cog/chm_5m_pzone_22_cog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json"
+        }
+    ],
+    "title": "Landboard Estonain 5m DEM COG Mosaic in 22 processing zones by Landscape Geoinformatics, UT",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    21.62436849,
+                    57.10738332,
+                    28.71945853,
+                    59.851432
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2020-01-20T12:00:00+03:00",
+                    "2021-02-20T12:00:00+03:00"
+                ]
+            ]
+        }
+    },
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/",
+    "keywords": [
+        "DEM"
+    ],
+    "providers": [
+        {
+            "name": "Landscape Geoinformatics",
+            "description": "Landscape Geoinformatics Lab, University of Tartu, Estonia, produced all derived products, mosaics",
+            "roles": [
+                "licensor",
+                "producer",
+                "processor",
+                "host"
+            ],
+            "url": "https://landscape-geoinformatics.ut.ee"
+        },
+        {
+            "name": "Land Board Estonia",
+            "description": "Land Board Estonia - Maa-Amet, provider of the source datasets 5m DEM grids, 4m CHM lidar grids, the soilmap of Estonia, ETAK topographic database, adminstrative units, under Estonian Landboard Open Data License (https://geoportaal.maaamet.ee/docs/Avaandmed/Licence-of-open-data-of-Estonian-Land-Board.pdf)",
+            "roles": [
+                "licensor",
+                "producer"
+            ],
+            "url": "https://www.maaamet.ee/en"
+        }
+    ]
+}
